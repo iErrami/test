@@ -1,4 +1,4 @@
-const features = document.querySelectorAll(".ugb-feature-grid__item");
+const features = document.querySelectorAll(".ugb-feature-grid___item");
 [...features].map((feature) => {
   const image = feature.querySelector("img").getAttribute("src");
   const title = feature.querySelector(".ugb-feature-grid__title").textContent;
